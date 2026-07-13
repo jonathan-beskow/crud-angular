@@ -1,6 +1,7 @@
 import { Component, signal } from '@angular/core';
 import { MatToolbar } from '@angular/material/toolbar';
 import { RouterLink, RouterOutlet } from '@angular/router';
+import { provideHttpClient, withFetch } from '@angular/common/http'
 import { MatIcon, MatIconModule } from '@angular/material/icon';
 
 @Component({
